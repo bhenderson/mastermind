@@ -5,3 +5,12 @@ keep track of guesses
 Todo:
 figure out proper way for cukes test for number of tries
 end game if max guesses is exceded
+
+Notes:
+I started with a working dir that was not git.
+git init
+git add .
+git ci -m"initial commit"
+git remote add github <url> #forked from hekaldama
+git pull --strategy=ours github master #I don't want to merge, just keep my changes. very useful!
+git push github master
