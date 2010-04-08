@@ -1,0 +1,7 @@
+Features:
+guesses can be without spaces 
+keep track of guesses
+
+Todo:
+figure out proper way for cukes test for number of tries
+end game if max guesses is exceded
